@@ -103,7 +103,6 @@ class _LoginScreen extends State<LoginScreen> {
                             style: TextStyle(color: Colors.black),
                           ),
                           onPressed: () {
-                            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>HomeScreen()));
                             if(_formkey.currentState!.validate())
                             {
                               setState(() {
